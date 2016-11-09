@@ -1,0 +1,16 @@
+{
+  "name": "suui-music",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./app/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suui",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.4.5",
+    "eslint": "^3.9.1"
+  }
+}
