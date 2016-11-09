@@ -7,4 +7,8 @@ body {
     height: 100%;
     background-color: #171717;
     color: #f9f9f9;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4285em;
+    font-weight: 500;
 }
