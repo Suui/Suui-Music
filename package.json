@@ -2,15 +2,18 @@
   "name": "suui-music",
   "version": "0.0.1",
   "description": "",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron ./app/main.js",
+    "build": "rimraf SuuiMusic-* && electron-packager . --platform=darwin, win32, linux --arch=x86",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Suui",
   "license": "ISC",
   "dependencies": {
     "electron": "^1.4.8",
-    "eslint": "^3.11.0"
+    "electron-packager": "^8.4.0",
+    "eslint": "^3.11.0",
+    "rimraf": "^2.5.4"
   }
 }
