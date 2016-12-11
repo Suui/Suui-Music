@@ -11,9 +11,8 @@
   "author": "Suui",
   "license": "ISC",
   "dependencies": {
-    "electron": "^1.4.8",
     "electron-packager": "^8.4.0",
-    "eslint": "^3.11.0",
-    "rimraf": "^2.5.4"
+    "electron-prebuilt": "^1.4.12",
+    "eslint": "^3.11.0"
   }
 }
